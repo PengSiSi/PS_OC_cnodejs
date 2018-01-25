@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="NoLoginHeadrView" id="iN0-l3-epB" customClass="NoLoginHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="6XJ-8M-YaF">
+                    <rect key="frame" x="8" y="5" width="70" height="70"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="5Eb-ki-MUq"/>
+                        <constraint firstAttribute="width" constant="70" id="iku-uX-Wjg"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="未登录" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEO-Uf-1xJ">
+                    <rect key="frame" x="102" y="30" width="52" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IEO-Uf-1xJ" firstAttribute="leading" secondItem="6XJ-8M-YaF" secondAttribute="trailing" constant="24" id="4UM-rV-awd"/>
+                <constraint firstItem="IEO-Uf-1xJ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Pa0-ld-Gqr"/>
+                <constraint firstItem="6XJ-8M-YaF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="c4a-M4-hQU"/>
+                <constraint firstItem="6XJ-8M-YaF" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="rJo-r5-b9C"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="avaterImgView" destination="6XJ-8M-YaF" id="tBC-rU-feL"/>
+                <outlet property="nickNameLabel" destination="IEO-Uf-1xJ" id="Agv-0N-Kqy"/>
+            </connections>
+            <point key="canvasLocation" x="47" y="-197"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="header" width="200" height="200"/>
+    </resources>
+</document>
