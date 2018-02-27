@@ -22,6 +22,10 @@
 		F125F8D91FCD335500C47EFC /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F125F8B41FCD2B2F00C47EFC /* BaseNavigationController.m */; };
 		F125F8DA1FCD335D00C47EFC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F125F8B61FCD2B2F00C47EFC /* BaseViewController.m */; };
 		F125F8E31FCD346C00C47EFC /* RecruitmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F125F8E21FCD346C00C47EFC /* RecruitmentViewController.m */; };
+		F12EBBBE20452A7600C561A2 /* ColorGradientDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12EBBBD20452A7600C561A2 /* ColorGradientDemoViewController.m */; };
+		F12EBBC52045356000C561A2 /* ColorGradientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F12EBBC32045356000C561A2 /* ColorGradientCell.m */; };
+		F12EBBC62045356000C561A2 /* ColorGradientCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12EBBC42045356000C561A2 /* ColorGradientCell.xib */; };
+		F12EBBCA2045402600C561A2 /* ScrollViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12EBBC92045402600C561A2 /* ScrollViewDemoViewController.m */; };
 		F15241A61FD66CF70077D429 /* TopicPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15241A51FD66CF70077D429 /* TopicPageViewController.m */; };
 		F15241A91FD66EEA0077D429 /* TopicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15241A81FD66EEA0077D429 /* TopicListViewController.m */; };
 		F15241AD1FD674940077D429 /* TopicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F15241AB1FD674940077D429 /* TopicListTableViewCell.m */; };
@@ -46,6 +50,8 @@
 		F1AAFD1B200DFC4500667CA5 /* ExpandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AAFD1A200DFC4500667CA5 /* ExpandViewController.m */; };
 		F1B078A72018085500185221 /* RefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B078A62018085500185221 /* RefreshView.m */; };
 		F1B078AB2018127A00185221 /* RefreshDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B078AA2018127A00185221 /* RefreshDemoViewController.m */; };
+		F1C0F9FB20240A6E00E1FAC9 /* LKDBHelperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F9FA20240A6E00E1FAC9 /* LKDBHelperViewController.m */; };
+		F1C0F9FE2024110800E1FAC9 /* LKDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F9FD2024110800E1FAC9 /* LKDBModel.m */; };
 		F1D24AF31FE222CB0034C8CD /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D24AF21FE222CA0034C8CD /* Foundation+Log.m */; };
 		F1D24AF61FE223100034C8CD /* NSDate+Calendar.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D24AF51FE223100034C8CD /* NSDate+Calendar.m */; };
 		F1D24AF91FE225490034C8CD /* UITextField+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D24AF81FE225490034C8CD /* UITextField+PlaceHolder.m */; };
@@ -72,6 +78,8 @@
 		F1E4AB291FEA290F0088BA68 /* HotRecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E4AB281FEA290F0088BA68 /* HotRecommendModel.m */; };
 		F1E4AB2C1FEA29260088BA68 /* HotRecommendListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E4AB2B1FEA29260088BA68 /* HotRecommendListModel.m */; };
 		F1E4AB3D1FEA51640088BA68 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E4AB3C1FEA515A0088BA68 /* iCarousel.m */; };
+		F1FA2182202835C5002DD41F /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FA2181202835C5002DD41F /* LocationManager.m */; };
+		F1FA218620283A37002DD41F /* AppUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FA218520283A37002DD41F /* AppUpdater.m */; };
 		F1FC23141FD7798E00F6F943 /* SuspendButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FC23131FD778C300F6F943 /* SuspendButton.m */; };
 		F1FC231B1FD77A0A00F6F943 /* AddTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FC231A1FD77A0A00F6F943 /* AddTopicViewController.m */; };
 		F1FC23211FD7902300F6F943 /* NoticeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FC23201FD7902300F6F943 /* NoticeDetailViewController.m */; };
@@ -235,6 +243,13 @@
 		F125F8D81FCD31B000C47EFC /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
 		F125F8E11FCD346C00C47EFC /* RecruitmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecruitmentViewController.h; sourceTree = "<group>"; };
 		F125F8E21FCD346C00C47EFC /* RecruitmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecruitmentViewController.m; sourceTree = "<group>"; };
+		F12EBBBC20452A7600C561A2 /* ColorGradientDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorGradientDemoViewController.h; sourceTree = "<group>"; };
+		F12EBBBD20452A7600C561A2 /* ColorGradientDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorGradientDemoViewController.m; sourceTree = "<group>"; };
+		F12EBBC22045356000C561A2 /* ColorGradientCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorGradientCell.h; sourceTree = "<group>"; };
+		F12EBBC32045356000C561A2 /* ColorGradientCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorGradientCell.m; sourceTree = "<group>"; };
+		F12EBBC42045356000C561A2 /* ColorGradientCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorGradientCell.xib; sourceTree = "<group>"; };
+		F12EBBC82045402600C561A2 /* ScrollViewDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewDemoViewController.h; sourceTree = "<group>"; };
+		F12EBBC92045402600C561A2 /* ScrollViewDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewDemoViewController.m; sourceTree = "<group>"; };
 		F15241A41FD66CF70077D429 /* TopicPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicPageViewController.h; sourceTree = "<group>"; };
 		F15241A51FD66CF70077D429 /* TopicPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicPageViewController.m; sourceTree = "<group>"; };
 		F15241A71FD66EEA0077D429 /* TopicListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicListViewController.h; sourceTree = "<group>"; };
@@ -285,6 +300,10 @@
 		F1B078A62018085500185221 /* RefreshView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshView.m; sourceTree = "<group>"; };
 		F1B078A92018127A00185221 /* RefreshDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshDemoViewController.h; sourceTree = "<group>"; };
 		F1B078AA2018127A00185221 /* RefreshDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshDemoViewController.m; sourceTree = "<group>"; };
+		F1C0F9F920240A6E00E1FAC9 /* LKDBHelperViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKDBHelperViewController.h; sourceTree = "<group>"; };
+		F1C0F9FA20240A6E00E1FAC9 /* LKDBHelperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKDBHelperViewController.m; sourceTree = "<group>"; };
+		F1C0F9FC2024110800E1FAC9 /* LKDBModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKDBModel.h; sourceTree = "<group>"; };
+		F1C0F9FD2024110800E1FAC9 /* LKDBModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKDBModel.m; sourceTree = "<group>"; };
 		F1D24AF21FE222CA0034C8CD /* Foundation+Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		F1D24AF41FE223100034C8CD /* NSDate+Calendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calendar.h"; sourceTree = "<group>"; };
 		F1D24AF51FE223100034C8CD /* NSDate+Calendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Calendar.m"; sourceTree = "<group>"; };
@@ -326,6 +345,10 @@
 		F1E4AB2B1FEA29260088BA68 /* HotRecommendListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotRecommendListModel.m; sourceTree = "<group>"; };
 		F1E4AB3B1FEA515A0088BA68 /* iCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		F1E4AB3C1FEA515A0088BA68 /* iCarousel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		F1FA2180202835C5002DD41F /* LocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		F1FA2181202835C5002DD41F /* LocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
+		F1FA218420283A37002DD41F /* AppUpdater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppUpdater.h; sourceTree = "<group>"; };
+		F1FA218520283A37002DD41F /* AppUpdater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUpdater.m; sourceTree = "<group>"; };
 		F1FC23121FD778C300F6F943 /* SuspendButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuspendButton.h; sourceTree = "<group>"; };
 		F1FC23131FD778C300F6F943 /* SuspendButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuspendButton.m; sourceTree = "<group>"; };
 		F1FC23191FD77A0A00F6F943 /* AddTopicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTopicViewController.h; sourceTree = "<group>"; };
@@ -893,6 +916,27 @@
 			path = Macro;
 			sourceTree = "<group>";
 		};
+		F12EBBBB20452A5B00C561A2 /* ColorGradientDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F12EBBBC20452A7600C561A2 /* ColorGradientDemoViewController.h */,
+				F12EBBBD20452A7600C561A2 /* ColorGradientDemoViewController.m */,
+				F12EBBC22045356000C561A2 /* ColorGradientCell.h */,
+				F12EBBC32045356000C561A2 /* ColorGradientCell.m */,
+				F12EBBC42045356000C561A2 /* ColorGradientCell.xib */,
+			);
+			path = ColorGradientDemo;
+			sourceTree = "<group>";
+		};
+		F12EBBC72045401800C561A2 /* ScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F12EBBC82045402600C561A2 /* ScrollViewDemoViewController.h */,
+				F12EBBC92045402600C561A2 /* ScrollViewDemoViewController.m */,
+			);
+			path = ScrollViewDemo;
+			sourceTree = "<group>";
+		};
 		F15241981FD66CE70077D429 /* Topic */ = {
 			isa = PBXGroup;
 			children = (
@@ -1257,6 +1301,17 @@
 			path = RefreshViewDemo;
 			sourceTree = "<group>";
 		};
+		F1C0F9F820240A5200E1FAC9 /* LKDBHelperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1C0F9F920240A6E00E1FAC9 /* LKDBHelperViewController.h */,
+				F1C0F9FA20240A6E00E1FAC9 /* LKDBHelperViewController.m */,
+				F1C0F9FC2024110800E1FAC9 /* LKDBModel.h */,
+				F1C0F9FD2024110800E1FAC9 /* LKDBModel.m */,
+			);
+			path = LKDBHelperDemo;
+			sourceTree = "<group>";
+		};
 		F1D24B001FE252300034C8CD /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -1270,6 +1325,9 @@
 		F1E4AB081FE9FAC70088BA68 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				F12EBBC72045401800C561A2 /* ScrollViewDemo */,
+				F12EBBBB20452A5B00C561A2 /* ColorGradientDemo */,
+				F1C0F9F820240A5200E1FAC9 /* LKDBHelperDemo */,
 				F1B078A82018126500185221 /* RefreshViewDemo */,
 				F16FC48A2017272D00149141 /* NumberTFDemo */,
 				F1AAFD18200DFC3500667CA5 /* ExpandTextViewToolBar */,
@@ -1334,6 +1392,24 @@
 				F1E4AB3C1FEA515A0088BA68 /* iCarousel.m */,
 			);
 			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		F1FA217F202835B8002DD41F /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA2180202835C5002DD41F /* LocationManager.h */,
+				F1FA2181202835C5002DD41F /* LocationManager.m */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		F1FA218320283A2A002DD41F /* AppUpdater */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA218420283A37002DD41F /* AppUpdater.h */,
+				F1FA218520283A37002DD41F /* AppUpdater.m */,
+			);
+			path = AppUpdater;
 			sourceTree = "<group>";
 		};
 		F1FC23111FD778C300F6F943 /* SuspendButton */ = {
@@ -1474,6 +1550,8 @@
 		F1FF6DEC1FF5C90700978757 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				F1FA218320283A2A002DD41F /* AppUpdater */,
+				F1FA217F202835B8002DD41F /* LocationManager */,
 				F1FF6DF31FF5D35D00978757 /* UserManager */,
 				F1FF6DED1FF5C93200978757 /* LaunchManager */,
 				F1FF6DEE1FF5C93200978757 /* SDKManager */,
@@ -1644,6 +1722,7 @@
 				F185EF561FCD299E006B11A6 /* Assets.xcassets in Resources */,
 				F1FC232F1FD7BF5B00F6F943 /* ReplyTableViewCell.xib in Resources */,
 				F185EF541FCD299E006B11A6 /* Main.storyboard in Resources */,
+				F12EBBC62045356000C561A2 /* ColorGradientCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1818,6 +1897,7 @@
 				F1AAFD17200DF8AF00667CA5 /* ExpandTextView.m in Sources */,
 				F1E4AB241FEA0BDD0088BA68 /* SectionHeaderView.m in Sources */,
 				F1FC23321FD7C7BC00F6F943 /* NSString+MD5.m in Sources */,
+				F1FA2182202835C5002DD41F /* LocationManager.m in Sources */,
 				F1FC23211FD7902300F6F943 /* NoticeDetailViewController.m in Sources */,
 				F1FC23141FD7798E00F6F943 /* SuspendButton.m in Sources */,
 				F1FF6DF61FF5D36A00978757 /* UserHelper.m in Sources */,
@@ -1825,6 +1905,8 @@
 				F1FF6DFC1FF5E14900978757 /* UIView+Extension.m in Sources */,
 				F16FC48D2017274000149141 /* NumberTFViewController.m in Sources */,
 				F1D24AFC1FE225B10034C8CD /* UIView+Frame.m in Sources */,
+				F1C0F9FB20240A6E00E1FAC9 /* LKDBHelperViewController.m in Sources */,
+				F12EBBC52045356000C561A2 /* ColorGradientCell.m in Sources */,
 				F1E44C021FD682E200138663 /* HTTPTool.m in Sources */,
 				F1E4AB2C1FEA29260088BA68 /* HotRecommendListModel.m in Sources */,
 				F1FC231B1FD77A0A00F6F943 /* AddTopicViewController.m in Sources */,
@@ -1863,7 +1945,9 @@
 				F185EF4E1FCD299E006B11A6 /* AppDelegate.m in Sources */,
 				F1FC23511FD7DBC400F6F943 /* HotSerachCell.m in Sources */,
 				F125F8CF1FCD2C6A00C47EFC /* RootTabbarViewController.m in Sources */,
+				F1FA218620283A37002DD41F /* AppUpdater.m in Sources */,
 				F1E4AB1B1FE9FFD00088BA68 /* MyTableViewCell.m in Sources */,
+				F12EBBBE20452A7600C561A2 /* ColorGradientDemoViewController.m in Sources */,
 				F1E4AB151FE9FD170088BA68 /* ContentView.m in Sources */,
 				F10E1F711FE8F8F000E55C8F /* LoadingView.m in Sources */,
 				F1E4AB291FEA290F0088BA68 /* HotRecommendModel.m in Sources */,
@@ -1872,11 +1956,13 @@
 				F10E1F651FE8EADB00E55C8F /* CustomGifHeader.m in Sources */,
 				F1D24AF31FE222CB0034C8CD /* Foundation+Log.m in Sources */,
 				F1A4B6D91FFB1EE000B3615F /* LogistricsInfoViewController.m in Sources */,
+				F12EBBCA2045402600C561A2 /* ScrollViewDemoViewController.m in Sources */,
 				F15241AD1FD674940077D429 /* TopicListTableViewCell.m in Sources */,
 				F1FF6DF21FF5C98200978757 /* SDKManager.m in Sources */,
 				F15241A61FD66CF70077D429 /* TopicPageViewController.m in Sources */,
 				F15241B11FD677ED0077D429 /* UIImageView+Extend.m in Sources */,
 				F1E4AB211FEA08C10088BA68 /* WaterFlowLayout.m in Sources */,
+				F1C0F9FE2024110800E1FAC9 /* LKDBModel.m in Sources */,
 				F1FC23581FD7DC7500F6F943 /* TopicSearchViewController.m in Sources */,
 				F125F8E31FCD346C00C47EFC /* RecruitmentViewController.m in Sources */,
 			);

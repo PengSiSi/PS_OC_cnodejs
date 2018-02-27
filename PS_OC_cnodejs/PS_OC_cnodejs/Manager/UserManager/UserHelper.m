@@ -49,4 +49,9 @@
     return YES;
 }
 
+// 退出登录
+- (void)logOut {
+    [[NSUserDefaults standardUserDefaults]removeObjectForKey:@"userObject"];
+}
+
 @end

@@ -12,6 +12,9 @@
 #import "ExpandViewController.h"
 #import "NumberTFViewController.h"
 #import "RefreshDemoViewController.h"
+#import "LKDBHelperViewController.h"
+#import "ColorGradientDemoViewController.h"
+#import "ScrollViewDemoViewController.h"
 
 @interface SettingViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -26,7 +29,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"设置";
-    self.dataArray = @[@"瀑布流Demo", @"物流信息Demo", @"回复框实现", @"数字键盘添加完成", @"自定义刷新控件"];
+    self.dataArray = @[@"瀑布流Demo", @"物流信息Demo", @"回复框实现", @"数字键盘添加完成", @"自定义刷新控件", @"LKDB数据库操作使用", @"UITableView颜色渐变", @"滑动切换"];
     [self setUI];
 }
 
@@ -88,6 +91,12 @@
         [self.navigationController pushViewController:[NumberTFViewController new] animated:YES];
     } else if (indexPath.row == 4) {
         [self.navigationController pushViewController:[RefreshDemoViewController new] animated:YES];
+    } else if (indexPath.row == 5) {
+        [self.navigationController pushViewController:[LKDBHelperViewController new] animated:YES];
+    } else if (indexPath.row == 6) {
+        [self.navigationController pushViewController:[ColorGradientDemoViewController new] animated:YES];
+    } else if (indexPath.row == 7) {
+        [self.navigationController pushViewController:[ScrollViewDemoViewController new] animated:YES];
     }
 }
 

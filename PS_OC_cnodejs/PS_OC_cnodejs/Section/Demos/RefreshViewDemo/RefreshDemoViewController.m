@@ -51,6 +51,33 @@ static CGFloat HeaderViewHegiht = 150.0;
     [self creatRefreshView];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+//    [super viewWillAppear:animated];
+    [self setNeedsStatusBarAppearanceUpdate];
+    [self setStatusBarBackgroundColor:[UIColor redColor]];
+    // 状态栏样式
+//    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+}
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    return UIStatusBarStyleLightContent;
+}
+
+// 隐藏状态栏
+//- (BOOL)prefersStatusBarHidden {
+//    return YES;
+//}
+
+//设置状态栏颜色
+- (void)setStatusBarBackgroundColor:(UIColor *)color {
+    
+    UIView *statusBar = [[[UIApplication sharedApplication] valueForKey:@"statusBarWindow"] valueForKey:@"statusBar"];
+    if ([statusBar respondsToSelector:@selector(setBackgroundColor:)]) {
+        statusBar.backgroundColor = color;
+    }
+}
+
+
 // 刷新控件
 - (void)creatRefreshView {
     self.refreshView = [[RefreshView alloc] initWithFrame:CGRectMake((kWidth - 30) /2, 40, 30, 30)];

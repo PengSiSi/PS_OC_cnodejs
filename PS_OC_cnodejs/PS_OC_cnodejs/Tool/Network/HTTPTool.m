@@ -4,7 +4,8 @@
 //
 //  Created by 王楠 on 16/1/18.
 //  Copyright © 2016年 王楠. All rights reserved.
-//
+
+// 参考链接： https://www.jianshu.com/p/a95ebd6befc9
 
 #import "HTTPTool.h"
 #import <AFHTTPSessionManager.h>
@@ -14,6 +15,10 @@
 @implementation HTTPTool
 
 #pragma mark - GET
+
+//NS_ASSUME_NONNULL_BEGIN
+//
+//NS_ASSUME_NONNULL_END
 
 + (void)getWithURL:(NSString *)url headers:(NSDictionary *)headers params:(NSDictionary *)params success:(HttpSuccess)success failure:(HttpFailure)failure {
     [self requestWithType:@"GET" url:url headers:headers params:params success:success failure:failure];

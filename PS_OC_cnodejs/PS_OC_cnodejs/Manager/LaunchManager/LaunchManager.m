@@ -33,7 +33,8 @@
 - (void)launchInWindow:(UIWindow *)window
 {
     self.window = window;
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+//    UIApplication.sharedApplication.statusBarStyle = UIStatusBarStyleLightContent;
+    
     // if 已经登录->初始化用户信息->设置根控制器
     [self setCurrentRootVC:self.tabBarController];
     // 未登录->进入登录页面->设置根控制器

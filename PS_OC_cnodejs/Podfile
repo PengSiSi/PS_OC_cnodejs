@@ -27,6 +27,7 @@ pod 'SDWebImage'
   pod 'CocoaLumberjack', '~> 2.2.0'
   pod 'ReactiveCocoa', '~> 2.5'
 #  pod 'UMengAnalytics', '~> 3.6.6'
+  pod 'LKDBHelper'
 
   target 'PS_OC_cnodejsUITests' do
     inherit! :search_paths

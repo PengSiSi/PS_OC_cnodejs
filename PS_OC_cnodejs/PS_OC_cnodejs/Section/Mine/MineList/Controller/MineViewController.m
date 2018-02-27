@@ -180,7 +180,7 @@ static NSString *const CommonCellIdentify = @"CommonTableViewCell";
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.section == 2 && indexPath.row == 0) {
+    if (indexPath.section == 1 && indexPath.row == 0) {
         [self.navigationController pushViewController:[SettingViewController new] animated:YES];
     }
 }
